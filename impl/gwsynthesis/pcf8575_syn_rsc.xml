@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="65(0)" T_Alu="15(0)" T_Lut="139(0)">
+    <SubModule name="your_instance_name"/>
+    <SubModule name="u_shift_1s" Register="36" Lut="35" T_Register="36(36)" T_Lut="35(35)"/>
+    <SubModule name="u_pcf8575" Register="29" Alu="15" Lut="104" T_Register="29(29)" T_Alu="15(15)" T_Lut="104(104)"/>
+</Module>

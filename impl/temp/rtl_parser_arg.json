@@ -1,0 +1,29 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "E:/stuff/dekstop/pcf8575/src/gowin_rpll/pll_24Mhz_800Khz.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/stuff/dekstop/pcf8575/src/pcf8575.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/stuff/dekstop/pcf8575/src/shift_1s.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/stuff/dekstop/pcf8575/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/stuff/dekstop/pcf8575/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

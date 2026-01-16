@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "E:/stuff/dekstop/pcf8575/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "E:/stuff/dekstop/pcf8575/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/stuff/dekstop/pcf8575/src/top.v",
+    "InstLine" : 17,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "E:/stuff/dekstop/pcf8575/src/gowin_rpll/pll_24Mhz_800Khz.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "pll_24Mhz_800Khz"
+   },
+   {
+    "InstFile" : "E:/stuff/dekstop/pcf8575/src/top.v",
+    "InstLine" : 25,
+    "InstName" : "u_shift_1s",
+    "ModuleFile" : "E:/stuff/dekstop/pcf8575/src/shift_1s.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "shift_1s"
+   },
+   {
+    "InstFile" : "E:/stuff/dekstop/pcf8575/src/top.v",
+    "InstLine" : 38,
+    "InstName" : "u_pcf8575",
+    "ModuleFile" : "E:/stuff/dekstop/pcf8575/src/pcf8575.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "pcf8575"
+   }
+  ]
+ }
+]

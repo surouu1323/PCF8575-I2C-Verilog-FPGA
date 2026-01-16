@@ -1,0 +1,19 @@
+=== DUMP DEC VCD ===
+VCD info: dumpfile dump_dec.vcd opened for output.
+run test
+Set wdata = 16'hf55f
+=====pcf8575_slave_handle_write=====
+[22] [PCF8575] Waiting for START condition
+[400] [PCF8575] START detected
+[3500] [PCF8575] Received byte: 0x40
+[PCF8575] Address matched: 7'h20, WRITE operation
+[3700] [PCF8575] Send ACK
+[7100] [PCF8575] Received byte: 0x5f
+[7300] [PCF8575] Send ACK
+[10700] [PCF8575] Received byte: 0xf5
+[10900] [PCF8575] Send NACK
+[11300] [PCF8575] Waiting for STOP condition
+[11600] [PCF8575] STOP detected
+=====pcf8575_slave_handle_read=====
+[11720] [PCF8575] Waiting for START condition
+../tb/tb.v:99: $finish called at 1000000 (1s)
